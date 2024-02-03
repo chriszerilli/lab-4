@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head> <b>Lab 4</b>
+
+        <style>
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+                
+                }
+
+            th, table {
+                text-align: left;
+                padding: 20px;
+            }
+
+            tr:nth-child(odd) {
+                background-color: yellow;
+            }
+            td:nth-child(4){
+                text-align: right;
+            }
+        </style>
+    </head>
+    
+    <body>
+
+            <h2>Table 1 : Table Zebra Style</h2>
+            <table>
+                <caption>Employee table</caption>
+                <tr>
+                    <th>Department</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Years of Service</th>
+                    </tr>
+                    
+                        <tr>
+                            <td rowspan="3">Editorial</td>
+                        <td>Joel Murach</td>
+                        <td>joelmurach@yahoo.com</td>
+                        <td>22</td>
+                    </tr>
+                    <tr>
+                        <td>Anne Boehm</td>
+                        <td>Anne@Boehm.com</td>
+                        <td>34</td>
+                    </tr>
+                    <tr>
+                        <td>Zak Ruvalcaba</td>
+                        <td>zak@modulemedia.com</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Marketing</td>
+                        <td>Judy Taylor</td>
+                        <td>judy@murach.com</td>
+                        <td>39</td>
+                    </tr>
+                    <tr>
+                        <td>Cyndi Vasquez</td>
+                        <td>cyndi@murach.com</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Customer Service</td>
+                        <td>Kelly Slivkoff</td>
+                        <td>kelly@murach.com</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td>Juliette Baylon</td>
+                        <td>Juliette@murach.com</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"> Total Years of Service</td>
+                        <td>105</td>
+                    </tr>
+            </table>
+            </body>
+</html>
